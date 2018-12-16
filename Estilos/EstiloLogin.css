@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #1A237E;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:#1565C0;
+    background-repeat: no-repeat;
+    background-size: 20% 100%;
+    background-image: url(../Recursos/Imagenes/3X3.png);
+    
+}
+
+.title{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    display: inline;
+    font-family: verdana;
+    color: aliceblue;
+    font-size: 3em;
+}
+
+
+
+.menu{
+    background-color: dodgerblue;
+    list-style-type: none;
+}
+
+.menu li{
+    flex: auto;
+    border-right: 2px solid rgba(0, 0, 0, 0.322);
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    line-height: 3;
+    display: block;
+}
+
+#header{
+    width: 100%;
+}
+
+.menu :nth-child(6){
+    border-bottom: none;
+}
+
+.submenu{
+    display: none;   
+}
+
+.menu a:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.submenu li a:hover{
+    background-color: steelblue;
+}
+
+
+@media screen and (min-width: 760px){
+    
+    .menu{
+        display: flex;
+        border-right: 2px solid rgba(0, 0, 0, 0.322);
+
+    }
+
+
+    .menu :nth-child(6){
+        border-right: none;
+    }
+
+    .submenu{
+        list-style: none;
+        display: block;
+        position: absolute;
+        top: 23%;
+       
+     }
+   
+    .submenu li a{
+    display: block;
+    border-right: none;
+    background-color: dodgerblue;
+    }
+    
+    .submenu{
+    display: none;      
+    }
+    
+ 
+}
+.cuboInfo{
+    position: absolute;
+    top: 80%;
+    right: 70%;
+    font-size: 10px;
+}
+
+
+
+

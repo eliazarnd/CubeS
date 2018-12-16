@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2018/01/31/1198706/99574d0a2044648f5b3f382e96752bf1-700.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row1{
+    position: relative;
+    top: 0;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.row2{
+    
+    position: absolute;
+    top: 0;
+    left: 54%;
+    width: 45%;
+    height: 100%;
+}
+
+
+input[type = "text"], input[type = "email"]{
+    width: 100%;
+    font-family: verdana;
+    font-size: 20px;
+    padding: 2px 5px;
+    margin: 5px 2px;
+    background-color: black;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    
+    color: white;
+}
+
+label{
+    font-size: 18px;
+    padding: 5px 5px;
+    color: white;
+}
+textarea{
+    width: 100%;
+    font-size: 20px;
+    max-height: 100px;
+    max-width: 100%;
+    margin: 5px 2px;
+}
+
+input[type = "date"]{
+    width: 100%;
+    font-size: 20px;
+    margin: 5px 2px;
+    background-color: black;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+}
+
+input[type ="radio"]{
+    margin: 5px 2px;
+}
+
+input[type = "submit"]{
+    position: relative;
+    width: 80%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-style: none;
+    top: 2px;
+    left: 10%;
+    background-color: #0D47A1;
+    color: white;
+    
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+input[type = "submit"]:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}

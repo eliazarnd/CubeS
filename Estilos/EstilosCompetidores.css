@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+h1{
+    color: white;
+}
+
+table td{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    border: solid 1px white;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+table tr:hover{
+    background-color: rgba(0, 0, 0, 0.658);
+    cursor: default;
+}
+
+.contenedor{
+    width: 100%;
+    background-color:#01579B;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: auto;
+}
+
+.contenedor td:hover:first-child{
+    background-color:rgba(0, 145, 255, 0.973);;
+}
+
+@media screen and (min-width: 100px){
+
+    table td{
+        font-size: 10px;
+    }
+
+}
+
+
+@media screen and (min-width: 760px){
+
+    table td{
+        font-size: 18px;
+    }
+
+}

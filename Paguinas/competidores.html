@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+    
+        <title>Registro</title>
+        <link rel="stylesheet" href="../Estilos/EstiloLogin.css">
+         <link rel="stylesheet" href="../Estilos/EstilosCompetidores.css">
+        
+         
+    </head>
+
+
+        <body onload="crearColumna();">
+    
+              <header class = "header">
+                <h1 class = "title">Baja Cubes</h1>
+                
+            </header>
+            <!-- Menu principal -->
+            <div id = "header">
+                <ul class = "menu">
+                
+                    <li><a id = "categoria"href="../index.html">Categorias</a></li>
+                    
+                        <ul class = "submenu">  
+                            <li><a id = "cubos2" href="#">Cubos 2x2</a></li>
+                            <li><a id = "cubos3" href="#">Cubos 3x3</a></li>
+                            <li><a id = "cubos4" href="#">Cubos 4x4</a></li>
+                            <li><a id = "cubosN" href="#">Cubos NxN</a></li>
+                            <li><a id = "formas" href="#">Formas especiales</a></li>
+                        </ul>
+                    
+                        <!-- Categoria de los cubo-->     
+                    <li><a href="Registro.html">Inicio</a></li>
+                    <li><a id = "comp" href="#">Competidores</a></li>
+                    <li><a href="#">Carrito</a></li>
+                    <li><a href="Registro.html">Registro</a></li>
+                </ul>
+            </div>
+
+            <h1>Competidores</h1>
+            <div class = "contenedor">
+            <table id = "competidores">
+
+              <tr>
+                  <td>Nombre</td>
+                  <td>Apellidos</td>
+                  <td>Numero de telefono</td>
+                  <td>Genero</td>
+                  <td>Fecha de nacimiento</td>
+                  <td>Correo electronico</td>
+                  <td>Ciudad</td>
+                  <td>Categoria</td>
+                  <td>Comentarios</td>
+              </tr>  
+            </div>
+         
+            </table>
+            
+            <script src="../Funcionalidad/crearFilas.js"></script>
+    </body>
+</html>

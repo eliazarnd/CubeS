@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+    
+        <title>Registro</title>
+        <link rel="stylesheet" href="../Estilos/EstiloLogin.css">
+         <link rel="stylesheet" href="../Estilos/EstiloRegistro.css">
+         
+    </head>
+
+
+        <body >
+    
+              <header class = "header">
+                <h1 class = "title">Baja Cubes</h1>
+                
+            </header>
+            <!-- Menu principal -->
+            <div id = "header">
+                <ul class = "menu">
+                
+                    <li><a id = "categoria"href="../index.html">Categorias</a></li>
+                    
+                        <ul class = "submenu">  
+                            <li><a id = "cubos2" href="#">Cubos 2x2</a></li>
+                            <li><a id = "cubos3" href="#">Cubos 3x3</a></li>
+                            <li><a id = "cubos4" href="#">Cubos 4x4</a></li>
+                            <li><a id = "cubosN" href="#">Cubos NxN</a></li>
+                            <li><a id = "formas" href="#">Formas especiales</a></li>
+                        </ul>
+                    
+                        <!-- Categoria de los cubo-->     
+                    <li><a href="Registro.html">Inicio</a></li>
+                    <li><a  id = "comp" href="competidores.html">Competidores</a></li>
+                    <li><a href="#">Carrito</a></li>
+                    <li><a href="Registro.html">Registro</a></li>
+                </ul>
+            </div>
+            
+                <h1>Registro para Competecion</h1>
+                
+                <div class = "main">
+            
+                    
+                    <form name="registro" action="#" onsubmit="return false">
+                    
+                    
+                        <div class = "row1">
+                        
+                        <label for = "nombre">Nombre</label><br>
+                        <input type="text" name = "nombre" required id = "nombre"><br>
+                         
+                        <label for = "apellido">Apellidos</label><br>
+                        <input type = "text" name = "apellido" required id = "apellido"><br>
+                        
+                        <label for = "telefono">Numero de telefono</label><br>    
+                        <input type="text" name = "telefono" id = "telefono"><br>
+                        <label for = "genero">Genero</label>
+                        <br>
+                        <input type="radio" name = "genero" id = "generoM">    
+                        <label for = "masculino" id = "m">Masculino</label>
+                        <br>
+                        <input type = "radio" name = "genero" id = "generoF">
+                        <label for = "femenino" id = "f">Femenino</label>
+                            
+                        <br>
+                        <label for = "fechaNa">Fecha de nacimiento</label>
+                        <br>
+                        <input type = "date" name = "fechaNa" id = "fechaNa">    
+                        </div>
+                    
+                    
+                        <div class = "row2">
+                        
+                        <label for = "corre">Correo electronico</label>
+                        <br>    
+                        <input type = "email" name = "correo" required id = "correo">
+                        <br>
+            
+                            <label for = "ciudad">Ciudad</label>
+                            <br>
+                            <input type="text" name = ciudad id = "ciudad">
+                            <br>
+                        <label for = "categoria">Categoria</label>
+                            
+                            <select id = "cat">
+                            
+                                <option name = "speed">Speed Cube</option>
+                                <option name = "oneH">One Hand</option>
+                                <option name = "blind">BlindFold</option>
+                                <option name = "minMovs">Min movs</option>
+                                
+                            </select>
+                            
+                            <br><br>
+                            <label name = "comentarios">Comentario</label>
+                            <br>
+                            <textarea id = "comentarios"></textarea>
+                            <br>
+                            
+                           
+
+                        </div>
+                        <input type="submit" value = "Registrase" id ="botonRe"> 
+                    </form>
+                    
+                    
+                </div>
+
+                <script src="../Funcionalidad/FormularioRegistro.js"></script>  
+                <script src="../Funcionalidad/crearFilas.js"></script>
+        </body>
+    
+
+
+</html>
